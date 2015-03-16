@@ -1,0 +1,13 @@
+D:\VS2013Project\ThreadTest\bin\Debug\ThreadTest.exe.config
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest.csprojResolveAssemblyReference.cache
+D:\VS2013Project\ThreadTest\obj\Debug\MainWindow.baml
+D:\VS2013Project\ThreadTest\obj\Debug\MainWindow.g.cs
+D:\VS2013Project\ThreadTest\obj\Debug\App.g.cs
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest_MarkupCompile.cache
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest.g.resources
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest.Properties.Resources.resources
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest.csproj.GenerateResource.Cache
+D:\VS2013Project\ThreadTest\bin\Debug\ThreadTest.exe
+D:\VS2013Project\ThreadTest\bin\Debug\ThreadTest.pdb
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest.exe
+D:\VS2013Project\ThreadTest\obj\Debug\ThreadTest.pdb

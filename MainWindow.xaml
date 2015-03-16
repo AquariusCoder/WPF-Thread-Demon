@@ -1,0 +1,23 @@
+﻿<Window x:Class="ThreadTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="595.773" Width="887.65">
+    <Grid>
+        <Button x:Name="btThread" Content="Thread" HorizontalAlignment="Left" Margin="2,0,0,531" VerticalAlignment="Bottom" Width="75" Click="btThread_Click"/>
+        <ProgressBar x:Name="proThread" HorizontalAlignment="Left" Height="22" Margin="202,12,0,0" VerticalAlignment="Top" Width="668" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btThreadpool" Content="Threadpool" HorizontalAlignment="Left" Margin="0,43,0,0" VerticalAlignment="Top" Width="75" Click="btThreadpool_Click"/>
+        <ProgressBar x:Name="proThreadpool" HorizontalAlignment="Left" Height="22" Margin="202,43,0,0" VerticalAlignment="Top" Width="668"/>
+        <Button x:Name="btBgWorker" Content="BgWorker" HorizontalAlignment="Left" Margin="0,75,0,0" VerticalAlignment="Top" Width="75" Click="btBgWorker_Click"/>
+        <ProgressBar x:Name="proBgWorker" HorizontalAlignment="Left" Height="22" Margin="202,75,0,0" VerticalAlignment="Top" Width="668"/>
+        <Button x:Name="btDelegate" Content="Delegate" HorizontalAlignment="Left" Margin="0,106,0,0" VerticalAlignment="Top" Width="75" Click="btDelegate_Click"/>
+        <ProgressBar x:Name="proDelegate" HorizontalAlignment="Left" Height="22" Margin="202,106,0,0" VerticalAlignment="Top" Width="668"/>
+        <Button x:Name="btTask" Content="Task" HorizontalAlignment="Left" Margin="0,137,0,0" VerticalAlignment="Top" Width="75" Click="btTask_Click"/>
+        <ProgressBar x:Name="proTask" HorizontalAlignment="Left" Height="22" Margin="202,137,0,0" VerticalAlignment="Top" Width="668"/>
+        <Label x:Name="lbThread" Content="线程 Id:" HorizontalAlignment="Left" Margin="96,13,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="lbThreadpool" Content="线程 Id:" HorizontalAlignment="Left" Margin="96,44,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="lbBgWorker" Content="线程 Id:" HorizontalAlignment="Left" Margin="96,75,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="lbDelegate" Content="线程 Id:" HorizontalAlignment="Left" Margin="96,106,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="lbTask" Content="线程 Id:" HorizontalAlignment="Left" Margin="96,135,0,0" VerticalAlignment="Top" Width="101"/>
+
+    </Grid>
+</Window>
